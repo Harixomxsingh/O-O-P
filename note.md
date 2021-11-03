@@ -35,3 +35,22 @@ so it's just like an architecture where the architect develops a blueprint to ex
 ### PRINCIPLE1: ABSTRACTION
 
 Abstraction: Ignoring or hiding details that don't matter, allowing us ot get an overview perspective of the thing we're implementing instead of messing with details that don't really matter to our implementation.
+
+#### example
+
+let's say that we're implementing a phone for a user to use. so with our abstraction like the phone's temperature and voltage, turning on the vibration motor or the speaker, and other low level details, but as a user interacting with a phone, do we really need all of this detail? well no.
+
+<br>
+in reality, when we interact with a real phone, all of these details have been abstracted away from us as the user.
+
+### PRINCIPLE 2: ENCAPSULATION
+
+Encapsulation: Keeping properties and methods **private** inside the class, so they are **not accessible from outside the class**. some methods can be **exposed** as a public interface(API)
+
+### PRINCIPLE 3: INHERITANCE
+
+Inheritance: Making all properties and methods of a certain class **available to a child class**, forming a hierarchical relationship between classes. this allows us to **reuse common logic** and to model real-world relationship
+
+### PRINCIPLE 4: POLYMORPHISM
+
+Polymorphism: A Child class can overwrite a method it inherited form a parent class [it's more complex that, but enough for our purposes].
