@@ -1,6 +1,6 @@
 # Date: 3 / 11 / 2021
 
-# Object Oriented programming using JavaScript
+# Object Oriented programming 
 
 ## What is Object Oriented Programming? (oop)
 
